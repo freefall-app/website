@@ -1,4 +1,4 @@
-/*================
+i/*================
  Template Name: AppCo App Landing Page Template
  Description: AppCo is app and product landing page template.
  Version: 1.0
@@ -202,16 +202,16 @@ strong, b{
     background: #f4f7fa;
 }
 .primary-bg{
-    background: #6730e3;
+    background: #EE2A27;
 }
 .secondary-bg{
-    background: #9629e6;
+    background: #f8716f;
 }
 .color-primary{
-    color: #6730e3;
+    color: #EE2A27;
 }
 .color-secondary{
-    color: #9629e6
+    color: #f8716f
 }
 .white-bg{
     background: #ffffff;
@@ -224,7 +224,7 @@ strong, b{
     background: #0ba077;
 }
 .bg-color-3{
-    background: #6582ed;
+    background: #e15957;
 }
 .bg-color-4{
     background: #399fb6;
@@ -252,7 +252,7 @@ strong, b{
 }
 .icon-color-6{
     background-color: #e2e8ff;
-    color: #6582ed;
+    color: #e15957;
 }
 
 .outline-btn, .solid-btn, .primary-solid-btn{
@@ -274,8 +274,8 @@ strong, b{
     color: #fff;
     -webkit-box-shadow: 0 5px 12px 0 rgba(67,37,204,.2);
     box-shadow: 0 5px 12px 0 rgba(67,37,204,.2);
-    background: #6730e3;
-    border: 2px solid #6730e3;
+    background: #EE2A27;
+    border: 2px solid #EE2A27;
     border-radius: 30px;
     position: relative;
     z-index: 2;
@@ -286,18 +286,18 @@ strong, b{
     color: #202877;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: 2px solid #6730e3;
+    border: 2px solid #EE2A27;
 }
 
 .outline-btn{
     border-radius: 30px;
-    color: #6730e3;
+    color: #EE2A27;
     display: inline-block;
-    border: 2px solid #6730e3;
+    border: 2px solid #EE2A27;
 }
 .outline-btn:hover{
     color: #fff;
-    background: #6730e3;
+    background: #EE2A27;
     -webkit-box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
     box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
 }
@@ -316,7 +316,7 @@ strong, b{
 .google-play-btn{
     background: #ffffff;
     border-color: #ffffff;
-    color: #6730e3;
+    color: #EE2A27;
     border-radius: 30px;
 }
 .google-play-btn:hover{
@@ -331,7 +331,7 @@ strong, b{
 }
 .app-store-btn:hover{
     background: #ffffff;
-    color: #6730e3;
+    color: #EE2A27;
 }
 
 /*form field css*/
@@ -541,14 +541,14 @@ span.sub-title{
     color: #ffffff;
 }
 .bg-transparent.affix{
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 1), rgba(55, 46, 149, 1), rgba(83, 49, 177, 1), rgba(114, 48, 205, 1), rgba(150, 41, 230, 1)) !important;
+    background-image: linear-gradient(to right, rgb(119, 32, 32), rgb(149, 46, 46), rgb(177, 49, 49), rgb(205, 48, 48), rgb(230, 41, 41)) !important;
 }
 .navbar{
     transition: all .3s ease-in-out;
 }
 @media (min-width: 320px) and (max-width: 992px){
     .navbar{
-        background: #202877 !important;
+        background: #772020 !important;
         padding: .95rem 1rem;
     }
 
@@ -1406,7 +1406,7 @@ span.sub-title{
     border-radius: 1rem;
 }
 .card.single-promo-card:hover{
-    background: #6730e3;
+    background: #EE2A27;
     color: #ffffff;
 }
 .card.single-promo-card:hover  span, .card.single-promo-card:hover h5, .card.single-promo-card:hover p.text-muted{
@@ -1487,7 +1487,7 @@ span.sub-title{
     left: -80px;
     width: 200px;
     height: 200px;
-    background: #9629e6;
+    background: #f8716f;
     content: "";
     top: -100px;
     border-radius: 100%;
@@ -1498,7 +1498,7 @@ span.sub-title{
     right: -108px;
     width: 200px;
     height: 200px;
-    background: #6730e3;
+    background: #EE2A27;
     content: "";
     bottom: -100px;
     border-radius: 100%;
@@ -1724,7 +1724,7 @@ span.sub-title{
 .icon-box{
     height: 65px;
     width: 65px;
-    color: #9629e6;
+    color: #f8716f;
     text-align: center;
     -webkit-box-shadow: 0 4px 15px 0 rgba(52, 27, 159,0.1);
     box-shadow: 0 4px 15px 0 rgba(52, 27, 159, 0.1);
@@ -1796,7 +1796,7 @@ span.sub-title{
     left: 0;
     font-family: 'themify';
     font-weight: 400;
-    color: #9629e6;
+    color: #f8716f;
 }
 
 /*feature new style*/
@@ -1838,11 +1838,11 @@ span.sub-title{
 }
 .feature-tab li a.nav-link.active, .feature-tab li a.nav-link:hover{
    border-color: #ebebeb;
-    background: #6730e3;
+    background: #EE2A27;
     color: #ffffff;
 }
 .feature-tab li a.nav-link.active{
-    background: #6730e3;
+    background: #EE2A27;
     color: #ffffff;
 }
 .feature-tab li a.nav-link.active span, .feature-tab li a.nav-link:hover span{
@@ -1863,7 +1863,7 @@ span.sub-title{
     display: block;
     font-size: 25px;
     margin-bottom: 10px;
-    color: #9629e6;
+    color: #f8716f;
 }
 .feature-tab-content{
     margin-top: 25px;
@@ -1882,7 +1882,7 @@ span.sub-title{
 .background-img:before{
     position: absolute;
     content: '';
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));
+    background-image: linear-gradient(to right, rgba(119, 32, 42, 0.95), rgba(149, 46, 46, 0.95), rgba(177, 49, 49, 0.9), rgba(205, 48, 48, 0.85), rgba(230, 41, 126, 0.95));
     width: 100%;
     height: 100%;
     top: 0;
@@ -1943,7 +1943,7 @@ span.sub-title{
     -webkit-animation: ripple-white 1s linear infinite;
     animation: ripple-white 1s linear infinite;
     -webkit-transition: .5s;
-    background-color: #9629e6;
+    background-color: #f8716f;
 }
 @-webkit-keyframes ripple-white {
     0% {
@@ -2008,7 +2008,7 @@ span.sub-title{
 .single-counter span{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    color: #9629e6;
+    color: #f8716f;
     font-size: 25px;
     line-height: 28px;
 }
@@ -2030,7 +2030,7 @@ span.sub-title{
 }
 .single-pricing-pack:hover {
     box-shadow: 0 .2em .5rem rgba(31,45,61,.125)!important;
-    border-top: 4px solid #9629e6;
+    border-top: 4px solid #f8716f;
 }
 .single-pricing-pack .card-body {
     color: rgb(132, 146, 166);
@@ -2067,7 +2067,7 @@ span.sub-title{
 /*price new style*/
 .popular-price{
     box-shadow: 0 .2em .5rem rgba(31,45,61,.125)!important;
-    border-top: 4px solid #9629e6 !important;
+    border-top: 4px solid #f8716f !important;
 }
 
 
@@ -2116,7 +2116,7 @@ span.sub-title{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: themify;
-    color: #9629e6;
+    color: #f8716f;
 }
 
 /*sccreenshot css*/
@@ -2228,7 +2228,7 @@ span.sub-title{
     outline: none;
 }
 .dot-indicator.owl-theme button.owl-dot.active span{
-    background: #9629e6;
+    background: #f8716f;
     border: 2px solid transparent;
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
@@ -2257,10 +2257,10 @@ span.sub-title{
 .arrow-indicator.owl-theme .owl-nav [class*=owl-] span{
     font-size: 20px;
     line-height: 20px;
-    color: #9629e6;
+    color: #f8716f;
 }
 .arrow-indicator.owl-theme .owl-nav [class*=owl-]:hover{
-    background: #9629e6 !important;
+    background: #f8716f !important;
 }
 .arrow-indicator.owl-theme .owl-nav [class*=owl-]:hover span{
     color: #ffffff !important;
@@ -2321,7 +2321,7 @@ span.sub-title{
     color: #565656;
 }
 .list-creative .address::before {
-    background: #9629e6;
+    background: #f8716f;
 }
 .list-creative .phone::before {
     background: #202877;
@@ -2334,7 +2334,7 @@ span.sub-title{
     text-decoration: none;
 }
 .list-terms-medium a:hover {
-    color: #9629e6;
+    color: #f8716f;
 }
 
 .google-map{
@@ -2352,7 +2352,7 @@ span.sub-title{
 
 /*our team css*/
 .single-team-member .team-info {
-    background-image: linear-gradient(to right, rgba(32, 40, 119, 0.85), rgba(55, 46, 149, 0.9), rgba(83, 49, 177, 0.85), rgba(114, 48, 205, 0.8), rgba(150, 41, 230, 0.8));
+    background-image: linear-gradient(to right, rgba(119, 32, 42, 0.95), rgba(149, 46, 46, 0.95), rgba(177, 49, 49, 0.9), rgba(205, 48, 48, 0.85), rgba(230, 41, 126, 0.95));
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.3s, visibility 0.3s;
@@ -2663,7 +2663,7 @@ span.sub-title{
     border-radius: .375rem;
 }
 .form-control:focus{
-    border-color: #6730e3;
+    border-color: #EE2A27;
 }
 .btn.border-radius{
     border-radius: 4px;
@@ -2699,7 +2699,7 @@ span.sub-title{
 
 .input-icon span{
     padding: 18px 15px;
-    border-left: 2px solid #6730e3;
+    border-left: 2px solid #EE2A27;
     position: absolute;
     font-size: 18px;
     height: calc(3.4rem + 2px);
@@ -3134,7 +3134,7 @@ button, [type="button"], [type="reset"], [type="submit"] {
     width: 100%;
 }
 .offer-tag{
-    background: #6730e3;
+    background: #EE2A27;
     padding: 30px;
     border-radius: 10px 60px;
     position: absolute;
